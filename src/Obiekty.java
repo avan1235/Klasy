@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Obiekty {
 
     public static void main(String[] args){
-        System.out.println("Hello");
+
         Scanner inputKeyboard = new Scanner(System.in);
         Employer pracownik = new Employer("Rafał", 3, 4);
         System.out.println(pracownik.showName() + " pracuje " + pracownik.showYearsWorking() + " lat.");
