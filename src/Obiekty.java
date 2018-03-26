@@ -11,7 +11,7 @@ public class Obiekty {
         Employer pracownik = new Employer("Rafał", 3, 4);
         System.out.println(pracownik.showName() + " pracuje " + pracownik.showYearsWorking() + " lat.");
         System.out.println("Jego doswiadczenie to " + pracownik.showSkills());
-        int addSkils = (int)(10*Math.random());
+        int addSkils = (int)(100*Math.random());
         System.out.println("Zwiększam doswiadczenie o " + addSkils);
         pracownik.raiseSkill(addSkils);
         System.out.println("Jego aktualne doswiadcznenie to " + pracownik.showSkills());
